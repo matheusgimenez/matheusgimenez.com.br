@@ -123,3 +123,8 @@ transition:800ms ease all;
     background:transparent;
     color:white;
 }
+.mobile{
+    font-family: 'Oswald', 'sans-serif';
+    text-transform: uppercase;
+    color:white !important;
+}
