@@ -13,6 +13,7 @@
     <meta name="language" content="PT">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/foundation.min.css"/>
+    <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
 <script>
@@ -77,35 +78,34 @@
                 <h1>Meus trabalhos</h1>
                 <div class="row">
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://taxiitapema.com" class="tip" data-powertip="<b>Comitiva de Taxi Itapema</b>"
-                           target="_blank">
+                        <a href="http://taxiitapema.com" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Comitiva de Taxi Itapema</b>" target="_blank">
                             <img src="img/taxi1.jpg" class="th">
                         </a>
                     </div>
-                    <div class="large-2 medium-2 small-6  columns left mob">
-                        <a href="http://pizzaitapema.com.br" class="tip" data-powertip="<b>Pizza Center</b>" target="_blank">
+                    <div class="large-2 medium-2 small-6 columns left mob">
+                        <a href="http://pizzaitapema.com.br" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Pizza Center</b>" target="_blank">
                             <img src="img/pizzac.jpg" class="th">
                         </a>
                     </div>
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://mettas.net.br/" class="tip" data-powertip="<b>Mettas Contabilidade</b>" target="_blank">
+                        <a href="http://mettas.net.br/" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Mettas Contabilidade</b>" target="_blank">
                             <img src="img/mettas.jpg" class="th">
                         </a>
                     </div>
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://itapemaambiental.eco.br/" class="tip" data-powertip="<b>Itapema Ambiental</b>"
+                        <a href="http://itapemaambiental.eco.br/" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Itapema Ambiental</b>"
                            target="_blank">
                             <img src="img/itapemam.jpg" class="th">
                         </a>
                     </div>
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://itapemafarmacia.com.br/" class="tip" data-powertip="<b>Farmácia Itapema</b>"
+                        <a href="http://itapemafarmacia.com.br/" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Farmácia Itapema</b>"
                            target="_blank">
                             <img src="img/farma.jpg" class="th">
                         </a>
                     </div>
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://itapemalitora.com.br" class="tip" data-powertip="<b>Itapema Litoral</b>"
+                        <a href="http://itapemalitora.com.br" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Itapema Litoral</b>"
                            target="_blank">
                             <img src="img/italitoral.jpg" class="th">
                         </a>
@@ -117,18 +117,18 @@
                         </a>
                     </div>
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://senaweb.net" class="tip" data-powertip="<b>SenaWeb Desenvolvimento de sites</b>"
+                        <a href="http://senaweb.net" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>SenaWeb Desenvolvimento de sites</b>"
                            target="_blank">
                             <img src="img/senaweb.jpg" class="th">
                         </a>
                     </div>
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://portalimprove.com" class="tip" data-powertip="<b>Portal Improve</b>" target="_blank">
+                        <a href="http://portalimprove.com" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Portal Improve</b>" target="_blank">
                             <img src="img/improve.jpg" class="th">
                         </a>
                     </div>
                     <div class="large-2 medium-2 small-6 columns left mob">
-                        <a href="http://lanchesitapema.com.br" class="tip" data-powertip="<b>Lanches Altas Horas</b>"
+                        <a href="http://lanchesitapema.com.br" data-tooltip data-options="disable_for_touch:true" class="has-tip tip-top" title="<b>Lanches Altas Horas</b>"
                            target="_blank">
                             <img src="img/altash.jpg" class="th">
                         </a>
@@ -170,7 +170,6 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,600,400' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/foundation.min.js"></script>
-<script src="js/jquery.powertip.min.js"></script>
 <script>
     $(document).foundation();
     $(window).ready(function (e) {
@@ -178,8 +177,6 @@
         $('#sobre').css('height', height + 'px')
         $('#sites').css('height', height + 'px')
         $('#contato').css('height', height + 'px')
-    });
-    $('.tip').powerTip({
     });
 </script>
 </body>
