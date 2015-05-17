@@ -31,7 +31,7 @@ body{
 }
 #sobre{
     width:100%;
-    background:url(../img/bg-sobre.jpg) fixed right top;
+    background:url(../img/novo-bg.jpg) fixed right top;
     background-size:cover;
 }
 #sobre .texto{
@@ -114,7 +114,7 @@ body{
     color:black;
     border:3px solid white;
     font-size:22px;
-transition:800ms ease all;
+    transition:800ms ease all;
 }
 .enviar:hover{
     transition:800ms ease all;
